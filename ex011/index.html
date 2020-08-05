@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamnho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/imagemP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagemM.png" type="image/png">
+        <img src="imagens/imagemG.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML50</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Spring Migration - The Great North Sound Society.mp3" type="audio/mpeg">
+            <p>Infelizmente seu navegador nao consegue reproduzir audio. <a href="midia/Spring Migration - The Great North Sound Society.mp3">Clique aqui</a> para baixar o arquivo</p>    
+    </audio>
+    
+   <!-- <audio src="midia/Spring Migration - The Great North Sound Society.mp3" controls autoplay></audio>-->
+    <!--MP3-WAV-OGG-->
+
+</body>
+</html>
